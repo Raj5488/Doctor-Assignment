@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM part 2 </title>
+</head>
+<body>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    
+    
+<script>
+
+    // How to add Attribute with the help of javaScript
+    let title = document.createElement("h2");
+    title.className = "hello";
+    title.textContent ="Love is a part of life";
+    title.style.color = "red";
+    title.style.fontSize = "40px";
+    console.log(title);
+    document.body.appendChild(title);
+    // how to remove attribute with the help of javaScript
+    let ul = document.querySelector("ul");
+    console.log(ul);
+    let lists = document.querySelectorAll("li");
+    console.log(lists);
+    for(list of lists){
+        ul.removeChild(list);
+    }
+    
+
+</script>
+</body>
+</html>

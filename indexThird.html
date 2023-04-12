@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Chapter Basic to Advance</title>
+</head>
+<body>
+    <p id = "one"></p>
+    <!-- <p class="Two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, amet?</p> -->
+
+    <script>
+        // Select with the help of ID;
+        let edu = document.getElementById("one");
+        console.log(edu.innerText);
+        // Select with the help of Class
+        let raj = document.getElementsByClassName("Two");
+        console.log(raj);
+        // Select with the help of QuerySelector:
+        let var3 = document.querySelector("#one");
+        console.log(var3.innerHTML);
+        //  How to change class and Id name;
+        edu.setAttribute("id","heye")
+        edu.setAttribute("titile","Hello India");
+        // without help css html how can i make paragraph
+        let var2 = document.getElementById("one");
+        console.log(var2);
+        var2.className = "hello";
+        var2.style.fontSize= "40px";
+        var2.style.color = "red";
+        var2.style.background = "yellow";
+        var2.textContent = "Jitu raj sharma";
+        
+
+        
+
+    </script>
+</body>
+</html>

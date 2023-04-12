@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.details{
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #20BC7E;
+}
+p{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.Qualification{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    
+}
+
+.Custumers,
+.Doctors,
+.Students{
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 2px black;
+    padding: 30px 90px;
+    
+}
+span{
+    font-size: larger;
+    font-weight: 1000;
+    color: #20BC7E;
+}
